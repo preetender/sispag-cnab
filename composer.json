@@ -1,0 +1,22 @@
+{
+    "name": "preetender/sispag-cnab",
+    "type": "library",
+    "license": "mit",
+    "authors": [{
+        "name": "César Augusto",
+        "email": "cesinhagutierres@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Preetender\\Cnab\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    }
+}
